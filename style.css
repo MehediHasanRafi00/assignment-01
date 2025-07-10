@@ -260,6 +260,7 @@ footer {
   text-align: center;
   padding: 104px;
   background-color: white;
+  border-top: 1px solid #e6e6e6;
 }
 footer h1 {
   font-size: 100px;
