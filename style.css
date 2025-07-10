@@ -29,6 +29,7 @@ main {
     font-weight: bold;
     border: 2px solid #006a50;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: #c6e4d6;
@@ -46,6 +47,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
+    
 }
 nav h1 {
     color: #006a50;
@@ -178,4 +180,28 @@ nav h1 {
 }
 .reviewe-date {
     color: #b3b3b3;
+}
+
+
+
+/* bettersection */
+
+.better-section {
+    margin-top: 116px;
+    text-align: center;
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 14px;
+}
+.better-section h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.better-section p{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.better-section img{
+    border-radius: 48px;
+    margin-top: 20px;
 }
