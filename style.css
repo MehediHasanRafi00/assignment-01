@@ -13,6 +13,7 @@ main {
 
 header {
   background-image: url(./Assets/Hero-bg.png);
+  background-size: cover;
 }
 
 main {
@@ -131,7 +132,7 @@ nav h1 {
   font-weight: bold;
   margin-bottom: 50px;
 }
-.staricone img {
+.star-icon img {
   width: 20px;
 }
 .feedback-container {
@@ -141,6 +142,7 @@ nav h1 {
 }
 .feedback {
   padding: 24px;
+  background-color: white;
   border-radius: 14px;
   border: 1px solid #f2eded;
   font-family: "Inter", sans-serif;
@@ -163,7 +165,7 @@ nav h1 {
   font-weight: 600;
   color: #757575;
 }
-.reviewe-date {
+.review-date {
   color: #b3b3b3;
 }
 
