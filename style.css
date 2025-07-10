@@ -5,6 +5,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #f5f8ff;
 }
 main{
     background-color: #f5f8ff;
@@ -17,6 +18,7 @@ header{
 main {
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .btn {
     padding: 12px 36px;
@@ -67,3 +69,25 @@ nav h1 {
 }
 
 
+/* action section  */
+
+.action-section {
+    margin-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action-info h3{
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+.action-info p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0;
+
+}
+.action-section img {
+    border-radius: 48px;
+}
