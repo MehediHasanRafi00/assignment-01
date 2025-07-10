@@ -249,3 +249,25 @@ nav h1 {
   color: black;
   transform: scale(1.03);
 }
+
+/* footer section  */
+footer {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 104px;
+  background-color: white;
+}
+footer h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  color: #006a50;
+}
+footer p {
+  color: #006a5083;
+  margin: 10px 0 20px 0;
+}
+.links a {
+    margin-right: 48px;
+    color: #006a5083;
+    text-decoration: none;
+}
