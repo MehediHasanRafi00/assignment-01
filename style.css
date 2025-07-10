@@ -49,7 +49,7 @@ nav {
 nav h1 {
   color: #006a50;
   font-size: 34px;
-  font-weight: bolder;
+  font-weight: 900;
   font-family: "Inter", sans-serif;
 }
 
@@ -220,6 +220,7 @@ nav h1 {
   border: 1px solid #d6dded;
   font-size: 20px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .form-section textarea {
@@ -230,6 +231,7 @@ nav h1 {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   resize: none;
+  box-sizing: border-box;
 }
 .form-section input[type="button"] {
   width: 100%;
@@ -267,7 +269,7 @@ footer p {
   margin: 10px 0 20px 0;
 }
 .links a {
-    margin-right: 48px;
-    color: #006a5083;
-    text-decoration: none;
+  margin-right: 48px;
+  color: #006a5083;
+  text-decoration: none;
 }
