@@ -267,13 +267,90 @@ footer h1 {
   font-size: 100px;
   font-weight: bolder;
   color: #006a50;
+  
 }
 footer p {
   color: #006a5083;
-  margin: 10px 0 20px 0;
+  margin: 10px auto 20px auto;
+  width: 531px;
 }
 .links a {
   margin-right: 48px;
   color: #006a5083;
   text-decoration: none;
 }
+
+/* Responsive  */
+
+.hide{
+  display: none;
+}
+
+/* Mobile Device  */
+
+@media screen and (max-width:576px) {
+
+
+  nav {
+    padding: 50px 20px;
+  }
+
+  .hero-section h2 {
+    font-size: 55px;
+  }
+  
+  .action-section{
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .action-info {
+    margin-top: 40px;
+  }
+  .action-section img, .better-section img  {
+    width: 100%;
+  }
+
+.productive-users {
+  margin: 116px  20px 0 20px;
+  padding: 30px 0;
+}
+  .average-users{
+    flex-direction: column-reverse;
+  }
+  .feedback-container, .form-section{
+    flex-direction: column;
+  }
+  .feedback-container {
+    padding: 0 20px;
+  }
+  .better-section, footer {
+    padding: 30px 20px ;
+  }
+
+  .users-info {
+    margin-top: 20px;
+  }
+
+  .form-section{
+    padding: 71px 20px;
+  }
+
+  .form-section h2 {
+    font-size: 75px;
+    margin-bottom: 20px;
+  }
+.form-section h2 {
+  font-size: 75px;
+}
+footer h1 {
+  font-size: 80px;
+}
+footer p {
+  width: auto;
+}
+.links a {
+  margin-right: 20px;
+}
+}
+
